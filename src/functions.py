@@ -42,9 +42,11 @@ class CorrClass():
         corr = np.real(np.matmul(eigve, np.matmul(np.diag(eigva),eigve.T)))
         return pd.DataFrame(corr, index=retData.columns, columns=retData.columns)
 
-    def plot_heatmap_densogram(self,df):
+    def plot_heatmap_dendogram(self,df,fig_name):
         heatmap = sns.clustermap(df.corr(),figsize=(12,12))
         plt.show();
         row_linkage = heatmap.dendrogram_row.linkage
         plt.figure(figsize=(12, 40), dpi=80)
         dn = dendrogram(row_linkage, labels = df.columns, orientation='right', leaf_font_size=8)
+        plt.savefig(f'{fig_name}.png',figsize=(12, 40))
+        return dn
