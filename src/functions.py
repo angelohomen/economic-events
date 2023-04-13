@@ -5,6 +5,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 from scipy.cluster.hierarchy import dendrogram, linkage
+from statsmodels.stats.outliers_influence import variance_inflation_factor
+from sklearn.preprocessing import StandardScaler
 warnings.filterwarnings('ignore')
 plt.rcParams['figure.figsize'] = 12,40
 
@@ -50,3 +52,11 @@ class CorrClass():
         dn = dendrogram(row_linkage, labels = df.columns, orientation='right', leaf_font_size=8)
         plt.savefig(f'{fig_name}.png',figsize=(12, 40))
         return dn
+    
+    def vif(self,X):
+        scaler = StandardScaler()
+        xs = scaler.fit_transform(X)
+        vif = pd.DataFrame()
+        vif["Features"] = X.columns
+        vif["VIF Factor"] = [variance_inflation_factor(xs, i) for i in range(xs.shape[1])]
+        return vif
