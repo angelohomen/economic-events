@@ -50,7 +50,6 @@ class CorrClass():
         row_linkage = heatmap.dendrogram_row.linkage
         plt.figure(figsize=(12, 40), dpi=80)
         dn = dendrogram(row_linkage, labels = df.columns, orientation='right', leaf_font_size=8)
-        plt.savefig(f'{fig_name}.png',figsize=(12, 40))
         return dn
     
     def vif(self,X):
