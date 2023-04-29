@@ -1,68 +1,68 @@
-﻿EventID,EventName
-840010001,Núcleo do Índice de Preços das Despesas de Consumo Pessoal (PCE) (Mensal)
-840010002,Núcleo do Índice de Preços das Despesas de Consumo Pessoal (PCE) (Anual)
-840010003,Índice de Preços das Despesas de Consumo Pessoal (PCE) (Mensal)
-840010004,Índice de Preços das Despesas de Consumo Pessoal (PCE) (Anual)
-840010005,Gastos Pessoais (Mensal)
-840010007,PIB (Trimestral)
-840010015,Transações Correntes
-840020001,Balança Comercial
-840020003,Encomendas à Indústria (Mensal)
-840020004,Construção de Novas Casas
-840020005,Licenças de Construção
-840020007,Estoques das Empresas
-840020008,Venda de Casas Novas
-840020009,Venda de Casas Novas (Mensal)
-840020010,Vendas no Varejo (Mensal)
-840020011,Núcleo do Índice de Vendas no Varejo (Mensal)
-840020012,Projeções de Vendas no Varejo (Mensal)
-840020013,Pedidos de Bens Duráveis (Mensal)
-840020014,Pedidos de Bens Duráveis (Mensal)
-840020015,Construção de Novas Casas (Mensal)
-840020016,Licenças de Construção (Mensal)
-840020019,Balança Comercial de Bens
-840020027,Estoques no Varejo (Mensal)
-840020028,Estoques no Varejo excl. Automóveis
-840030001,Índice de Preços ao Produtor (Mensal)
-840030005,Núcleo do Índice de Preços ao Consumidor (IPC) (Mensal)
-840030006,Núcleo do Índice de Preços ao Consumidor (IPC) (Mensal)
-840030015,Taxa de Desemprego
-840030016,Relatório de Emprego (Payroll) não-agrícola
-840030018,Ganho Médio por Hora Trabalhada (Mensal)
-840030021,Ofertas de Emprego JOLTs
-840030023,Relatório de Emprego - Payroll - Privado
-840030025,Índice do Custo do Emprego (Trimestral)
-840030028,Produtividade do Setor Não Agrícola (Trimestral)
-840030029,Custo Unitário da Mão de Obra (Trimestral)
-840040001,Índice de Gestores de Compras (PMI) no setor industrial do ISM
-840040003,Índice de gerentes de compras não-manufatureiros (PMI) do ISM
-840040004,Índice do Instituto de Gestão de Provisões (ISM) de Emprego no Setor Manufatureiro
-840040005,ISM Não-Manufatura: Emprego
-840050011,Produção Industrial do Sistema de Reserva Federal (FRS) (Mensal)
-840050014,Taxa-alvo de Fundos da Reserva Federal (Fed)
-840050017,Índice de Condições do Mercado de Trabalho do Sistema de Reserva Federal (FRS)
-840050026,Produção Industrial (Anual)
-840070001,Índice de Atividade Industrial do Fed de Filadélfia
-840070002,Relatório de Empregos Fed Filadélfia
-840100001,Contagem de Sondas Baker Hughes
-840100002,Contagem Total de Sondas dos EUA por Baker Hughes
-840120001,Vendas de Casas Usadas
-840120002,Vendas de Casas Usadas (Mensal)
-840120003,Vendas Pendentes de Moradias (Mensal)
-840120004,Vendas Pendentes de Moradias (Anual)
-840140001,Pedidos Iniciais de Subsídio de Desemprego
-840150001,Saldo Orçamental Federal
-840170001,Preços de Imóveis S&P/CS Composto-20 (Anual)
-840180002,EUA - Confiança do Consumidor Conference Board (CB)
-840190001,Variação de Empregos Privados ADP
-840200001,EIA: Estoques de Petróleo Bruto
-840200002,EIA: Estoques de Petróleo Bruto em Cushing
-840210001,Índice de Percepção do Consumidor de Michigan
-840210002,Confiança do Consumidor da Universidade de Michigan
-840220001,Transações Líquidas de Longo Prazo
-840220014,Leilão Note a 10 anos
-840230001,Índice Empire State de Atividade Industrial do Fed de Nova York
-840500001,Índice de Gerentes de Compras (PMI) no Setor da Manufatura do Markit
-840500002,Índice de Gerentes de Compras (PMI) no Setor de Serviços da S&P Global
-840500003,PMI Composto S&P Global
-840510001,Barômetro de Negócios de Chicago
+﻿EventID,EventName,Frequency
+840010001,Núcleo do Índice de Preços das Despesas de Consumo Pessoal (PCE) (Mensal),M
+840010002,Núcleo do Índice de Preços das Despesas de Consumo Pessoal (PCE) (Anual),M
+840010003,Índice de Preços das Despesas de Consumo Pessoal (PCE) (Mensal),M
+840010004,Índice de Preços das Despesas de Consumo Pessoal (PCE) (Anual),M
+840010005,Gastos Pessoais (Mensal),M
+840010007,PIB (Trimestral),M
+840010015,Transações Correntes,T
+840020001,Balança Comercial,M
+840020003,Encomendas à Indústria (Mensal),M
+840020004,Construção de Novas Casas,M
+840020005,Licenças de Construção,M
+840020007,Estoques das Empresas,M
+840020008,Venda de Casas Novas,M
+840020009,Venda de Casas Novas (Mensal),M
+840020010,Vendas no Varejo (Mensal),M
+840020011,Núcleo do Índice de Vendas no Varejo (Mensal),M
+840020012,Projeções de Vendas no Varejo (Mensal),M
+840020013,Pedidos de Bens Duráveis (Mensal),M
+840020014,Pedidos de Bens Duráveis (Mensal),M
+840020015,Construção de Novas Casas (Mensal),M
+840020016,Licenças de Construção (Mensal),M
+840020019,Balança Comercial de Bens,M
+840020027,Estoques no Varejo (Mensal),Q
+840020028,Estoques no Varejo excl. Automóveis,Q
+840030001,Índice de Preços ao Produtor (Mensal),M
+840030005,Núcleo do Índice de Preços ao Consumidor (IPC) (Mensal),M
+840030006,Núcleo do Índice de Preços ao Consumidor (IPC) (Mensal),M
+840030015,Taxa de Desemprego,M
+840030016,Relatório de Emprego (Payroll) não-agrícola,M
+840030018,Ganho Médio por Hora Trabalhada (Mensal),M
+840030021,Ofertas de Emprego JOLTs,M
+840030023,Relatório de Emprego - Payroll - Privado,M
+840030025,Índice do Custo do Emprego (Trimestral),T
+840030028,Produtividade do Setor Não Agrícola (Trimestral),PT
+840030029,Custo Unitário da Mão de Obra (Trimestral),PT
+840040001,Índice de Gestores de Compras (PMI) no setor industrial do ISM,M
+840040003,Índice de gerentes de compras não-manufatureiros (PMI) do ISM,M
+840040004,Índice do Instituto de Gestão de Provisões (ISM) de Emprego no Setor Manufatureiro,M
+840040005,ISM Não-Manufatura: Emprego,M
+840050011,Produção Industrial do Sistema de Reserva Federal (FRS) (Mensal),M
+840050014,Taxa-alvo de Fundos da Reserva Federal (Fed),PT
+840050017,Índice de Condições do Mercado de Trabalho do Sistema de Reserva Federal (FRS),M
+840050026,Produção Industrial (Anual),M
+840070001,Índice de Atividade Industrial do Fed de Filadélfia,M
+840070002,Relatório de Empregos Fed Filadélfia,M
+840100001,Contagem de Sondas Baker Hughes,S
+840100002,Contagem Total de Sondas dos EUA por Baker Hughes,S
+840120001,Vendas de Casas Usadas,M
+840120002,Vendas de Casas Usadas (Mensal),M
+840120003,Vendas Pendentes de Moradias (Mensal),M
+840120004,Vendas Pendentes de Moradias (Anual),M
+840140001,Pedidos Iniciais de Subsídio de Desemprego,S
+840150001,Saldo Orçamental Federal,M
+840170001,Preços de Imóveis S&P/CS Composto-20 (Anual),M
+840180002,EUA - Confiança do Consumidor Conference Board (CB),M
+840190001,Variação de Empregos Privados ADP,M
+840200001,EIA: Estoques de Petróleo Bruto,S
+840200002,EIA: Estoques de Petróleo Bruto em Cushing,S
+840210001,Índice de Percepção do Consumidor de Michigan,Q
+840210002,Confiança do Consumidor da Universidade de Michigan,Q
+840220001,Transações Líquidas de Longo Prazo,M
+840220014,Leilão Note a 10 anos,M
+840230001,Índice Empire State de Atividade Industrial do Fed de Nova York,M
+840500001,Índice de Gerentes de Compras (PMI) no Setor da Manufatura do Markit,Q
+840500002,Índice de Gerentes de Compras (PMI) no Setor de Serviços da S&P Global,Q
+840500003,PMI Composto S&P Global,Q
+840510001,Barômetro de Negócios de Chicago,M
