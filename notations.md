@@ -1,3 +1,14 @@
+# TO DO
+Estimar a variação do ativo (no momento, mini dólar) baseado no dado que possa sair no evento. Por exemplo:
+Se a próxima variação for 3%, espera-se variância de 10pts no dólar em relação ao preço em que o dado sai.
+Label: max(high-px_ref, px_ref-low) em até 5 minutos depois do release.
+Feature: dados passados, média móvel do dado, TALVEZ outros dados de eventos, patamar atual do dólar.
+
+Label = MaxVarAfterRelease
+Features = ['WdoRsiBool(30,70)', 'WdoPrice', 'WdoVarBefore']
+
+
+# BACKLOG
 # Ideias para o estudos de eventos econômicos
 No artigo, mostra-se uma forma de clusterizar ativos similares para um portfólio tendo-se os retornos diários usando técnicas deton e denoise de matrizes de correlação.
 
